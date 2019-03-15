@@ -12,7 +12,9 @@ Yet another Clean Code repository. This one was inspired by [Python's](https://g
 
 > Even bad code can function. But if code isn’t clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn’t have to be that way.
 
-This repository is not a style guide. Go already has a few fantastic official documents that gophers (Go developers) take as language guidelines. If you are new to Go, make sure to check them out before this repository (I'm gonna use these concepts here as well):
+This repository is not a style guide. Go already has a few fantastic official documents that gophers (Go developers) take as language guidelines.
+
+If you are new to Go, make sure to check them out before this repository (I'm gonna use these concepts here as well):
 
 - [Tour of Go](https://tour.golang.org/)
 
@@ -22,7 +24,7 @@ This repository is not a style guide. Go already has a few fantastic official do
 
 ### Why is this for, then?
 
-I'm in a moment in my career as software developer that I feel I lack some basic concepts. One of them includes writing a graceful, clean, clear code. Therefore I'm gonna practice some coding adapting Uncle Bob's Clean Code in my favorite programming language: Go! :blue_heart:
+I'm in a moment in my career as software developer that I feel I lack some basic concepts. One of them includes writing a graceful, clean, clear code. Therefore I'm gonna practice some coding adapting Uncle Bob's [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) in my favorite programming language: **Go**! :blue_heart:
 
 Hope I can help you guys too :wink:
 
