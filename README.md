@@ -4,6 +4,7 @@ Some of Uncle Bob's Clean Code concepts adapted for Go language. This is also a 
 ## Table of Contents
 
 1. [Introduction](#introduction)
+2. [Meaningful Names](en-us/meaningful-names.md)
 
 
 ## Introduction
