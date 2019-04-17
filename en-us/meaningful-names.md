@@ -66,6 +66,118 @@ time.Sleep(secondsPerDay * time.Second)
 
 **[⬆ back to top](#meaningful-names)**
 
+## Avoid mental mapping
+
+**Bad:**
+
+```go
+```
+
+**Good:**
+
+```go
+```
+
+[`open in playground`](https://play.golang.org/)
+
+**[⬆ back to top](#meaningful-names)**
+
+## Struct names
+
+**Bad:**
+
+```go
+```
+
+**Good:**
+
+```go
+```
+
+[`open in playground`](https://play.golang.org/)
+
+**[⬆ back to top](#meaningful-names)**
+
+## Interface names
+
+**Bad:**
+
+```go
+```
+
+**Good:**
+
+```go
+```
+
+[`open in playground`](https://play.golang.org/)
+
+**[⬆ back to top](#meaningful-names)**
+
+## Method names
+
+**Bad:**
+
+```go
+```
+
+**Good:**
+
+```go
+```
+
+[`open in playground`](https://play.golang.org/)
+
+**[⬆ back to top](#meaningful-names)**
+
+## Don't be cute
+
+**Bad:**
+
+```go
+```
+
+**Good:**
+
+```go
+```
+
+[`open in playground`](https://play.golang.org/)
+
+**[⬆ back to top](#meaningful-names)**
+
+## Be consistent
+
+**Bad:**
+
+```go
+```
+
+**Good:**
+
+```go
+```
+
+[`open in playground`](https://play.golang.org/)
+
+**[⬆ back to top](#meaningful-names)**
+
+## Avoid mental mapping
+
+**Bad:**
+
+```go
+```
+
+**Good:**
+
+```go
+```
+
+[`open in playground`](https://play.golang.org/)
+
+**[⬆ back to top](#meaningful-names)**
+
 ---
 
 **[back to table of contents](../README.md)**
