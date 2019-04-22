@@ -66,19 +66,45 @@ time.Sleep(secondsPerDay * time.Second)
 
 **[⬆ back to top](#meaningful-names)**
 
-## Avoid mental mapping
+## Avoid mental mapping in a larger scope
 
 **Bad:**
 
 ```go
+func Read(buffer *Buffer, inBuffer []byte) (size int, err error){
+    if buffer.empty(){
+        buffer.Reset()
+    }
+
+    size = copy(
+        inBuffer,
+        buffer.buffer[buffer.offset:]
+    )
+
+    buffer.offset += size
+    return size, nil
+}
 ```
+
+This is too verbose. That's okay in a larger scope, when functions are bigger (they shouldn't be, but that happens), but in a smaller scope it's a good practice to use a few words on naming variables.
 
 **Good:**
 
 ```go
+func Read(b *Buffer, p []byte) (n int, err error){
+    if b.empty(){
+        b.Reset()
+    }
+
+    n = copy(p, b.buf[b.off:])
+
+    b.off += n
+
+    return n, nil
+}
 ```
 
-[`open in playground`](https://play.golang.org/)
+[`open in playground`](https://play.golang.org/p/JE9hbt1h8k0)
 
 **[⬆ back to top](#meaningful-names)**
 
